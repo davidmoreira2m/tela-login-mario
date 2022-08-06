@@ -4,6 +4,7 @@
       <meta charset="UTF-8" />
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta name="description" content="Página de Login Super Mario, criada por David Moreira" />
       <title>Tela Login - Mário</title>
       <link rel="stylesheet" href="style.css" />
       <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -15,13 +16,13 @@
          <div class="container">
             <div class="user signinBox">
                <div class="imgBox">
-                  <img src="./img/mario.jpg" alt="Boneco do mário" />
+                  <img src="./img/mario.jpg" alt="Boneco do mário" height="585" width="450" />
                </div>
                <div class="formBox">
                   <form action="">
                      <h2>Entrar</h2>
-                     <input type="text" name="" id="" placeholder="Usuário" />
-                     <input type="password" name="" id="" placeholder="Senha" />
+                     <input type="text" name="user" id="user" placeholder="Usuário" />
+                     <input type="password" name="password" id="password" placeholder="Senha" />
                      <input type="submit" value="Entrar" />
                      <p class="signUp">Não tem uma conta? <a href="#" onclick="toggleForm();">Cadastre-se</a></p>
                   </form>
@@ -31,19 +32,20 @@
                <div class="formBox">
                   <form action="">
                      <h2>Crie sua conta</h2>
-                     <input type="text" name="" id="" placeholder="Insira um usuário" />
-                     <input type="email" name="" id="" placeholder="Seu email" />
-                     <input type="password" name="" id="" placeholder="Insira uma senha" />
-                     <input type="password" name="" id="" placeholder="Confirme a senha" />
+                     <input type="text" name="userCr" id="userCr" placeholder="Insira um usuário" />
+                     <input type="email" name="emailCr" id="emailCr" placeholder="Seu email" />
+                     <input type="password" name="passwordCr" id="passwordCr" placeholder="Insira uma senha" />
+                     <input type="password" name="passwordCo" id="passwordCo" placeholder="Confirme a senha" />
                      <input type="submit" value="Criar" />
                      <p class="signUp">Já possui uma conta? <a href="#" onclick="toggleForm();">Entrar</a></p>
                   </form>
                </div>
                <div class="imgBox">
-                  <img src="./img/luigi.jpg" alt="Boneco do Yoshi" />
+                  <img src="./img/luigi.jpg" alt="Boneco do Yoshi" height="585" width="450" />
                </div>
             </div>
          </div>
+         <p>Criado por <a href="https://github.com/davidmoreira2m" target="_blank">David Moreira</a></p>
       </section>
       <script src="./script.js"></script>
    </body>
